@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a28dd910-59db-4ab6-b475-b0fa5539a81c" name="变更" comment="3.5-1 权限管理之前结束" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2MP2C4qgjif4lVLQ7gUP4XzfiWc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "18",
+    "last_opened_file_path": "C:/Users/wang-/Desktop/2023/Java_Class/wwj-project",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "spring.configuration.checksum": "8a604bca848cb439ecf3b1c0c25b4f2b"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "module"
+    ],
+    "DatabaseDriversLRU": [
+      "mysql"
+    ],
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/SQL 方言": [
+      "MySQL"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\wang-\Desktop\2023\Java_Class\wwj-project\common\common-util\src\main\java\com\atguigu\common\utils" />
+      <recent name="C:\Users\wang-\Desktop\2023\Java_Class\wwj-project\model\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wang-\Desktop\2023\Java_Class\wwj-project\common" />
+      <recent name="C:\Users\wang-\Desktop\2023\Java_Class\wwj-project\service-oa\src\test\java\com\atguigu\code" />
+      <recent name="C:\Users\wang-\Desktop\2023\Java_Class\wwj-project\service-oa\src\main\resources" />
+      <recent name="C:\Users\wang-\Desktop\2023\Java_Class\wwj-project\service-oa\src\test" />
+      <recent name="C:\Users\wang-\Desktop\2023\Java_Class\wwj-project\service-oa\src\main\java\com\atguigu\auth\mapper" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ServiceAuthApplication">
+    <configuration name="CodeGet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.code.CodeGet" />
+      <module name="service-oa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.code.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JwtHelper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.common.jwt.JwtHelper" />
+      <module name="common-util" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.common.jwt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMpDemo1.getAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service-oa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.auth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.auth" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.auth.TestMpDemo1" />
+      <option name="METHOD_NAME" value="getAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMpDemo2.getAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service-oa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.auth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.auth" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.auth.TestMpDemo2" />
+      <option name="METHOD_NAME" value="getAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-oa" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.auth.ServiceAuthApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.auth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ServiceAuthApplication" />
+        <item itemvalue="应用程序.JwtHelper" />
+        <item itemvalue="应用程序.CodeGet" />
+        <item itemvalue="JUnit.TestMpDemo1.getAll" />
+        <item itemvalue="JUnit.TestMpDemo2.getAll" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="a28dd910-59db-4ab6-b475-b0fa5539a81c" name="变更" comment="" />
+      <created>1677654765744</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677654765744</updated>
+      <workItem from="1677654767011" duration="192000" />
+      <workItem from="1677654974557" duration="8138000" />
+      <workItem from="1677665181638" duration="1774000" />
+      <workItem from="1677731785624" duration="2756000" />
+      <workItem from="1677735327092" duration="4710000" />
+      <workItem from="1677741874093" duration="3276000" />
+      <workItem from="1677745221279" duration="1474000" />
+      <workItem from="1677757320686" duration="84000" />
+      <workItem from="1677825992821" duration="5840000" />
+      <workItem from="1677846545453" duration="6228000" />
+      <workItem from="1677896087400" duration="3618000" />
+      <workItem from="1677910825724" duration="11473000" />
+      <workItem from="1677935106728" duration="3790000" />
+      <workItem from="1677991304268" duration="10958000" />
+      <workItem from="1678066903808" duration="6789000" />
+      <workItem from="1678082115816" duration="6792000" />
+      <workItem from="1678089690603" duration="3293000" />
+      <workItem from="1678102773133" duration="7881000" />
+      <workItem from="1678111856234" duration="1652000" />
+      <workItem from="1678159642046" duration="6448000" />
+      <workItem from="1678257321787" duration="383000" />
+    </task>
+    <task id="LOCAL-00001" summary="3.1-1">
+      <created>1677655350602</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677655350602</updated>
+    </task>
+    <task id="LOCAL-00002" summary="3.1-2">
+      <created>1677656391357</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677656391357</updated>
+    </task>
+    <task id="LOCAL-00003" summary="3.1-3 org改成com guigu改成wwj">
+      <created>1677657707810</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677657707810</updated>
+    </task>
+    <task id="LOCAL-00004" summary="3.1-4 测试，获取所有人信息">
+      <created>1677665063365</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677665063365</updated>
+    </task>
+    <task id="LOCAL-00005" summary="3.1-4 测试结束">
+      <created>1677666814249</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677666814249</updated>
+    </task>
+    <task id="LOCAL-00006" summary="3.2-1 今天结束">
+      <created>1677757355411</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677757355411</updated>
+    </task>
+    <task id="LOCAL-00007" summary="3.3-1 昨天结束">
+      <created>1677915936550</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677915936550</updated>
+    </task>
+    <task id="LOCAL-00008" summary="3.3-1 昨天结束">
+      <created>1677915965982</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677915965982</updated>
+    </task>
+    <task id="LOCAL-00009" summary="3.5-1 权限管理之前结束">
+      <created>1678004415834</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1678004415834</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="3.1-1" />
+    <MESSAGE value="3.1-2" />
+    <MESSAGE value="3.1-3 org改成com guigu改成wwj" />
+    <MESSAGE value="3.1-4 测试，获取所有人信息" />
+    <MESSAGE value="3.1-4 测试结束" />
+    <MESSAGE value="3.2-1 今天结束" />
+    <MESSAGE value="3.3-1 昨天结束" />
+    <MESSAGE value="3.5-1 权限管理之前结束" />
+    <option name="LAST_COMMIT_MESSAGE" value="3.5-1 权限管理之前结束" />
+  </component>
+</project>
