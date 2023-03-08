@@ -3,8 +3,8 @@ package com.atguigu.auth.controller;
 
 import com.atguigu.auth.service.SysMenuService;
 import com.atguigu.common.result.Result;
-import com.wwj.model.system.SysMenu;
-import com.wwj.vo.system.AssginMenuVo;
+import com.atguigu.model.system.SysMenu;
+import com.atguigu.vo.system.AssginMenuVo;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;

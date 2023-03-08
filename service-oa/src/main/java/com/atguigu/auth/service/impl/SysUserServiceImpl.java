@@ -1,14 +1,11 @@
 package com.atguigu.auth.service.impl;
 
-import com.wwj.model.system.SysUser;
+import com.atguigu.model.system.SysUser;
 import com.atguigu.auth.mapper.SysUserMapper;
 import com.atguigu.auth.service.SysUserService;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
-
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  * <p>

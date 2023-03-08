@@ -1,7 +1,7 @@
 package com.atguigu.auth.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.wwj.model.system.SysMenu;
+import com.atguigu.model.system.SysMenu;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

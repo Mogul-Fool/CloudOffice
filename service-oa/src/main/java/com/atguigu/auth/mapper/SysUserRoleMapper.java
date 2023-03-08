@@ -1,7 +1,7 @@
 package com.atguigu.auth.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.wwj.model.system.SysUserRole;
+import com.atguigu.model.system.SysUserRole;
 
 /**
  * <p>

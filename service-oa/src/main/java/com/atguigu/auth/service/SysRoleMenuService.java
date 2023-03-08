@@ -1,7 +1,7 @@
 package com.atguigu.auth.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.wwj.model.system.SysRoleMenu;
+import com.atguigu.model.system.SysRoleMenu;
 
 /**
  * <p>

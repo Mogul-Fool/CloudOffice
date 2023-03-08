@@ -1,6 +1,6 @@
 package com.atguigu.auth.utils;
 
-import com.wwj.model.system.SysMenu;
+import com.atguigu.model.system.SysMenu;
 
 import java.util.ArrayList;
 import java.util.List;

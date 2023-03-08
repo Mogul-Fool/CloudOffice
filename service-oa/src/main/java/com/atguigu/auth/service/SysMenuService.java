@@ -1,8 +1,8 @@
 package com.atguigu.auth.service;
 
-import com.wwj.model.system.SysMenu;
-import com.wwj.vo.system.AssginMenuVo;
-import com.wwj.vo.system.RouterVo;
+import com.atguigu.model.system.SysMenu;
+import com.atguigu.vo.system.AssginMenuVo;
+import com.atguigu.vo.system.RouterVo;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 import java.util.List;

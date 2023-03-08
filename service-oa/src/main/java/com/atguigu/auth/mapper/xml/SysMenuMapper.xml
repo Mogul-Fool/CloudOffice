@@ -3,7 +3,7 @@
 <mapper namespace="com.atguigu.auth.mapper.SysMenuMapper">
 
     <resultMap id="sysMenuMap"
-               type="com.wwj.model.system.SysMenu" autoMapping="true">
+               type="com.atguigu.model.system.SysMenu" autoMapping="true">
 
     </resultMap>
 

@@ -7,7 +7,7 @@ import com.atguigu.common.result.Result;
 import com.atguigu.common.result.ResultCodeEnum;
 import com.atguigu.security.custom.CustomUser;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.wwj.vo.system.LoginVo;
+import com.atguigu.vo.system.LoginVo;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

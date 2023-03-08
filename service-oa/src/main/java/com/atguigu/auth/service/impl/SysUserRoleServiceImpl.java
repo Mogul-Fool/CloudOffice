@@ -3,7 +3,7 @@ package com.atguigu.auth.service.impl;
 import com.atguigu.auth.mapper.SysUserRoleMapper;
 import com.atguigu.auth.service.SysUserRoleService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.wwj.model.system.SysUserRole;
+import com.atguigu.model.system.SysUserRole;
 import org.springframework.stereotype.Service;
 
 /**

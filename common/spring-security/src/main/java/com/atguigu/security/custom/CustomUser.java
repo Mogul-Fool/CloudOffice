@@ -1,7 +1,6 @@
 package com.atguigu.security.custom;
 
-import com.wwj.model.system.SysUser;
-import lombok.Data;
+import com.atguigu.model.system.SysUser;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.User;
 

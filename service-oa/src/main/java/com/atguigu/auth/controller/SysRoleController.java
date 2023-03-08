@@ -1,23 +1,19 @@
 package com.atguigu.auth.controller;
 
-import com.atguigu.auth.mapper.SysRoleMapper;
 import com.atguigu.auth.service.SysRoleService;
-import com.atguigu.common.config.exception.GuiguException;
 import com.atguigu.common.result.Result;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.mysql.cj.xdevapi.Warning;
-import com.wwj.model.system.SysRole;
-import com.wwj.vo.system.AssginRoleVo;
-import com.wwj.vo.system.SysRoleQueryVo;
+import com.atguigu.model.system.SysRole;
+import com.atguigu.vo.system.AssginRoleVo;
+import com.atguigu.vo.system.SysRoleQueryVo;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
-import org.yaml.snakeyaml.events.Event;
 
 import java.util.List;
 import java.util.Map;

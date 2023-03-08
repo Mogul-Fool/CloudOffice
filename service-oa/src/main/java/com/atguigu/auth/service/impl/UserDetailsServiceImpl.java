@@ -2,20 +2,16 @@ package com.atguigu.auth.service.impl;
 
 import com.atguigu.auth.service.SysMenuService;
 import com.atguigu.auth.service.SysUserService;
-import com.atguigu.common.config.exception.GuiguException;
-import com.atguigu.common.result.ResultCodeEnum;
 import com.atguigu.security.custom.CustomUser;
 import com.atguigu.security.custom.UserDetailsService;
-import com.wwj.model.system.SysUser;
+import com.atguigu.model.system.SysUser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 @Service
