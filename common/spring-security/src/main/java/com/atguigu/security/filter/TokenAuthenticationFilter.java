@@ -5,6 +5,7 @@ import com.atguigu.common.jwt.JwtHelper;
 import com.atguigu.common.result.ResponseUtil;
 import com.atguigu.common.result.Result;
 import com.atguigu.common.result.ResultCodeEnum;
+import com.atguigu.security.custom.LoginUserInfoHelper;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -58,13 +59,18 @@ public class TokenAuthenticationFilter extends OncePerRequestFilter {
             String username = JwtHelper.getUsername(token);
             logger.info("username:"+username);
             if (!StringUtils.isEmpty(username)) {
-                String authoritiesString = (String) redisTemplate.opsForValue().get(username);
-                List<Map> mapList = JSON.parseArray(authoritiesString, Map.class);
-                List<SimpleGrantedAuthority> authorities = new ArrayList<>();
-                for (Map map : mapList) {
-                    authorities.add(new SimpleGrantedAuthority((String)map.get("authority")));
+                LoginUserInfoHelper.setUserId(JwtHelper.getUserId(token));
+                LoginUserInfoHelper.setUsername(username);
+                String authString = (String)redisTemplate.opsForValue().get(username);
+                logger.info("username:"+authString);
+                if(!StringUtils.isEmpty(authString)) {
+                    List<Map> mapList = JSON.parseArray(authString, Map.class);
+                    List<SimpleGrantedAuthority> authorities = new ArrayList<>();
+                    for (Map map : mapList) {
+                        authorities.add(new SimpleGrantedAuthority((String)map.get("authority")));
+                    }
+                    return new UsernamePasswordAuthenticationToken(username, null, authorities);
                 }
-                return new UsernamePasswordAuthenticationToken(username, null, authorities);
             } else {
                 return new UsernamePasswordAuthenticationToken(username, null, new ArrayList<>());
             }
