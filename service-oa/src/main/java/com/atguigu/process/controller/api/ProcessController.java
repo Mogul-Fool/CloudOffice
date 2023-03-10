@@ -1,5 +1,6 @@
 package com.atguigu.process.controller.api;
 
+import com.atguigu.auth.service.SysUserService;
 import com.atguigu.common.result.Result;
 import com.atguigu.model.process.Process;
 import com.atguigu.model.process.ProcessTemplate;
@@ -7,6 +8,7 @@ import com.atguigu.model.process.ProcessType;
 import com.atguigu.process.service.OaProcessService;
 import com.atguigu.process.service.OaProcessTemplateService;
 import com.atguigu.process.service.OaProcessTypeService;
+import com.atguigu.vo.process.ApprovalVo;
 import com.atguigu.vo.process.ProcessFormVo;
 import com.atguigu.vo.process.ProcessVo;
 import com.baomidou.mybatisplus.core.metadata.IPage;
@@ -34,6 +36,9 @@ public class ProcessController {
 
     @Autowired
     private OaProcessService processService;
+
+    @Autowired
+    private SysUserService sysUserService;
 
     @ApiOperation(value = "待处理")
     @GetMapping("/findPending/{page}/{limit}")
@@ -76,6 +81,41 @@ public class ProcessController {
         return Result.ok(map);
     }
 
+    @ApiOperation(value = "审批")
+    @PostMapping("approve")
+    public Result approve(@RequestBody ApprovalVo approvalVo) {
+        processService.approve(approvalVo);
+        return Result.ok();
+    }
 
+    @ApiOperation(value = "已处理")
+    @GetMapping("/findProcessed/{page}/{limit}")
+    public Result findProcessed(
+            @ApiParam(name = "page", value = "当前页码", required = true)
+            @PathVariable Long page,
+            @ApiParam(name = "limit", value = "每页记录数", required = true)
+            @PathVariable Long limit) {
+        Page<Process> pageParam = new Page<>(page,limit);
+        IPage<ProcessVo> pageModel = processService.findProcessed(pageParam);
+        return Result.ok(pageModel);
+    }
 
+    @ApiOperation(value = "已发起")
+    @GetMapping("/findStarted/{page}/{limit}")
+    public Result findStarted(
+            @ApiParam(name = "page", value = "当前页码", required = true)
+            @PathVariable Long page,
+            @ApiParam(name = "limit", value = "每页记录数", required = true)
+            @PathVariable Long limit) {
+        Page<ProcessVo> pageParam = new Page<>(page, limit);
+        IPage<ProcessVo> pageModel = processService.findStarted(pageParam);
+        return Result.ok(pageModel);
+    }
+
+    @ApiOperation(value = "获取当前用户基本信息")
+    @GetMapping("getCurrentUser")
+    public Result getCurrentUser() {
+        Map<String,Object> map = sysUserService.getCurrentUser();
+        return Result.ok(map);
+    }
 }

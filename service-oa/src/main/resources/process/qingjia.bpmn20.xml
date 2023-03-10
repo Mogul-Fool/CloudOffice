@@ -3,7 +3,7 @@
   <process id="qingjia" isExecutable="true">
     <startEvent id="sid-AE120E1B-25EC-43C0-B703-8EE13CB13835"></startEvent>
     <userTask id="sid-30AE99C3-6055-4472-B3A3-9C4B0BB3975A" name="张三审批" activiti:assignee="zhang3"></userTask>
-    <userTask id="sid-A8361321-1F0D-429F-8E5D-5F0D3FE7B764" name="李四审批" activiti:assignee="li4"></userTask>
+    <userTask id="sid-A8361321-1F0D-429F-8E5D-5F0D3FE7B764" name="李四审批" activiti:assignee="lili4"></userTask>
     <endEvent id="sid-18403A14-DABE-48F8-B43F-16BCAFC66CE7"></endEvent>
     <sequenceFlow id="sid-E88CBC13-6950-4428-8A88-721850823A32" sourceRef="sid-AE120E1B-25EC-43C0-B703-8EE13CB13835" targetRef="sid-30AE99C3-6055-4472-B3A3-9C4B0BB3975A"></sequenceFlow>
     <sequenceFlow id="sid-8D62AC0F-C742-4738-A61A-5FC81916ACC1" sourceRef="sid-30AE99C3-6055-4472-B3A3-9C4B0BB3975A" targetRef="sid-A8361321-1F0D-429F-8E5D-5F0D3FE7B764"></sequenceFlow>

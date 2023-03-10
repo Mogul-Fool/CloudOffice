@@ -1,5 +1,6 @@
 package com.atguigu.process.service;
 
+import com.atguigu.vo.process.ApprovalVo;
 import com.atguigu.vo.process.ProcessFormVo;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
@@ -29,4 +30,10 @@ public interface OaProcessService extends IService<Process> {
     IPage<ProcessVo> findfindPending(Page<Process> pageParam);
 
     Map<String, Object> show(Long id);
+
+    void approve(ApprovalVo approvalVo);
+
+    IPage<ProcessVo> findProcessed(Page<Process> pageParam);
+
+    IPage<ProcessVo> findStarted(Page<ProcessVo> pageParam);
 }
